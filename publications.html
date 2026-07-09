@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | 3D Image Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <img src="logo.png" alt="3D Image Lab"><span>3D Image Lab</span>
+            </a>
+            <div class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="publications.html" class="active">Publications</a>
+                <a href="news.html">News</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="menu-toggle" aria-label="菜单">&#9776;</button>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Publications</h1>
+        <p>论文发表与专利成果</p>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="pub-tabs">
+                <button class="pub-tab active" data-tab="papers" onclick="switchPubTab('papers')">学术论文</button>
+                <button class="pub-tab" data-tab="patents" onclick="switchPubTab('patents')">专利成果</button>
+            </div>
+
+            <!-- ========== Papers Panel ========== -->
+            <div class="pub-panel active" id="panel-papers">
+                <div class="pub-scholar-box">
+                    <p>完整论文列表请访问 Google Scholar</p>
+                    <p><a href="https://scholar.google.com/citations?user=iBt9uHUAAAAJ" target="_blank">前往 Google Scholar →</a></p>
+                    <p style="font-size:0.82rem;color:var(--text-muted);margin-top:12px;">实验室在 CVPR、ICCV、ECCV、AAAI、NeurIPS、ACM MM、Nature Communications、IEEE TPAMI 等顶级会议和期刊上发表论文百余篇</p>
+                </div>
+
+                <!-- Top Conference Papers -->
+                <h3 style="color:var(--primary);margin:32px 0 16px;border-left:3px solid var(--accent);padding-left:12px;">顶会论文 (CCF-A)</h3>
+                <div class="paper-list">
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2026</span> <strong>H. Liu, B. Zou, Q. Liu, H. Yu, Q. Mei, J. Jiang, C. Liu, C. Bi, Z. Wang, X. Zhang, Y. Zhan, J. Chen, H. Ma</strong>, "Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images"</div>
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2026</span> <strong>S. Liu, X. Li, B. Zou, J. Zhuo, H. Ma, J. Chen</strong>, "Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models"</div>
+                    <div class="paper-item"><span class="paper-tag icml">ICML 2026</span> <strong>H. Yu, D. Zha, X. Ding, J. Li, J. Zhuo, Q. Liu, H. Ma, J. Chen</strong>, "MEDUSA: Motion Elimination in Diffusion Using Spectral Attack"</div>
+                    <div class="paper-item"><span class="paper-tag neurips">NeurIPS 2025</span> <strong>J. Jiang, Q. Liu*, H. Liu, H. Yu, L. Wang, J. Chen, H. Ma*</strong>, "MVSMamba: Multi-View Stereo with State Space Model"</div>
+                    <div class="paper-item"><span class="paper-tag neurips">NeurIPS 2025</span> <strong>Y. Hou, B. Zou*, M. Zhang, R. Chen, S. Yang, Y. Zhang, J. Zhuo, S. Chen, J. Chen, H. Ma*</strong>, "AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios"</div>
+                    <div class="paper-item"><span class="paper-tag icml">ICML 2025</span> <strong>X. Li, S. Liu, B. Zou*, J. Chen, H. Ma*</strong>, "From Black Boxes to Transparent Minds: Evaluating and Enhancing the Theory of Mind in Multimodal Large Language Models"</div>
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2025</span> <strong>J. Zhao, J. Zhuo*, J. Chen, H. Ma*</strong>, "SAM2Object: Consolidating View Consistency via SAM2 for Zero-Shot 3D Instance Segmentation"</div>
+                    <div class="paper-item"><span class="paper-tag iccv">ICCV 2025</span> <strong>J. Jiang, Q. Liu*, H. Yu, H. Liu, L. Wang, J. Chen, H. Ma*</strong>, "MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network"</div>
+                    <div class="paper-item"><span class="paper-tag iccv">ICCV 2025</span> <strong>X. Ding, H. Yu, J. Li, B. Zou, H. Ma, J. Chen*</strong>, "Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures"</div>
+                    <div class="paper-item"><span class="paper-tag iccv">ICCV 2025</span> <strong>H. Yu, X. Ding, J. Li, J. Wang, Y. Zhang, R. Wang, H. Ma, J. Chen*</strong>, "DADet: Safeguarding Image Conditional Diffusion Models against Adversarial and Backdoor Attacks"</div>
+                    <div class="paper-item"><span class="paper-tag aaai">AAAI 2025</span> <strong>J. Jiang, L. Wang, H. Yu, T. Hu, J. Chen, H. Ma*</strong>, "RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo"</div>
+                    <div class="paper-item"><span class="paper-tag aaai">AAAI 2025</span> <strong>J. Li, H. Yu, J. Chen*, X. Ding, J. Wang, J. Liu, B. Zou, H. Ma</strong>, "A²RNet: Adversarial Attack Resilient Network for Robust Infrared and Visible Image Fusion"</div>
+                    <div class="paper-item"><span class="paper-tag aaai">AAAI 2025</span> <strong>B. Zou, Z. Guo, X. Hu, H. Ma*</strong>, "RhythmMamba: Fast, Lightweight, and Accurate Remote Physiological Measurement"</div>
+                    <div class="paper-item"><span class="paper-tag aaai">AAAI 2025</span> <strong>H. Liu, H. Yu, B. Zou*, J. Lyu, M. Qi, J. Chen, H. Ma*</strong>, "ProtoCar: Learning 3D Vehicle Prototypes from Single-View and Unconstrained Driving Scene Images"</div>
+                    <div class="paper-item"><span class="paper-tag aaai">AAAI 2025</span> <strong>J. Zhuo, S. Wang*, Z. Chen, L. Shen, Q. Huang, H. Ma*</strong>, "Image-to-video Adaptation with Outlier Modeling and Robust Self-learning"</div>
+                    <div class="paper-item"><span class="paper-tag mm">ACM MM 2025</span> <strong>Z. Guo, B. Zou, Y. Jia, X. Li, H. Ma</strong>, "Boosting Micro-Expression Analysis via Prior-Guided Video-Level Regression"</div>
+                    <div class="paper-item"><span class="paper-tag neurips">NeurIPS 2024</span> <strong>J. Zhu, S. Li, A. Liu, P. Huang, J. Shan, H. Ma*, J. Yuan</strong>, "ODGEN: Domain-specific Object Detection Data Generation with Diffusion Models"</div>
+                    <div class="paper-item"><span class="paper-tag mm">ACM MM 2024</span> <strong>S. Chen, J. Zhuo*, X. Li, H. Liu, R. Wang, J. Chen, H. Ma*</strong>, "CMT: Co-training Mean-Teacher for Unsupervised Domain Adaptation on 3D Object Detection"</div>
+                    <div class="paper-item"><span class="paper-tag mm">ACM MM 2024</span> <strong>H. Liu, J. Zhuo*, C. Liang, J. Chen, H. Ma*</strong>, "Affinity3D: Propagating Instance-Level Semantic Affinity for Zero-Shot Point Cloud Semantic Segmentation"</div>
+                    <div class="paper-item"><span class="paper-tag icml">ICML 2024</span> <strong>K. Song, Z. Tan, B. Zou, H. Ma, W. Huang</strong>, "Unveiling the Dynamics of Information Interplay in Supervised Learning"</div>
+                    <div class="paper-item"><span class="paper-tag neurips">NeurIPS 2023</span> <strong>K. Song, H. Ma, B. Zou, H. Zhang, W. Huang</strong>, "FD-Align: Feature Discrimination Alignment for Fine-tuning Pre-Trained Models in Few-Shot Learning"</div>
+                    <div class="paper-item"><span class="paper-tag mm">ACM MM 2022</span> <strong>H. Liu, H. Ma, Y. Wang, B. Zou, T. Hu, R. Wang, J. Chen</strong>, "Eliminating Spatial Ambiguity for Weakly Supervised 3D Object Detection without Spatial Labels"</div>
+                    <div class="paper-item"><span class="paper-tag mm">ACM MM 2022</span> <strong>Y. Xue, J. Chen, Y. Zhang, C. Yu, H. Ma, H. Ma</strong>, "3D Human Mesh Reconstruction by Learning to Sample Joint Adaptive Tokens for Transformers"</div>
+                    <div class="paper-item"><span class="paper-tag iccv">ICCV 2021</span> <strong>C. Yu, J. Chen, Y. Xue, Y. Liu, W. Wan, J. Bao, H. Ma</strong>, "Defending against Universal Adversarial Patches by Clipping Feature Norms"</div>
+                    <div class="paper-item"><span class="paper-tag mm">ACM MM 2021</span> <strong>Y. Huang, H. Xue, J. Chen*, H. Ma, H. Ma</strong>, "Semantic Tag Augmented XlanV Model for Video Captioning"</div>
+                    <div class="paper-item"><span class="paper-tag neurips">NeurIPS 2021</span> <strong>J. Chen, Y. Zhang, Y. Xu, H. Ma, H. Yang, J. Song, Y. Wang, Y. Wu</strong>, "Variational Automatic Curriculum Learning for Sparse-Reward Cooperative Multi-Agent Problems"</div>
+                    <div class="paper-item"><span class="paper-tag neurips">NIPS 2015</span> <strong>X. Chen, Y. Zhu, K. Kundu, H. Ma, S. Fidler, R. Urtasun</strong>, "3D Object Proposals for Accurate Object Class Detection"</div>
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2018</span> <strong>X. Wang, S. You, X. Li, H. Ma</strong>, "Weakly-Supervised Semantic Segmentation by Iteratively Mining Common Object Features"</div>
+                    <div class="paper-item"><span class="paper-tag iccv">ICCV 2017</span> <strong>Z. Zhao, H. Ma, S. You</strong>, "Single Image Action Recognition using Semantic Body Part Actions"</div>
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2017</span> <strong>X. Chen, H. Ma, J. Wan, B. Li, T. Xia</strong>, "Multi-View 3D Object Detection Network for Autonomous Driving" <em>(Spotlight)</em></div>
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2016</span> <strong>X. Chen, K. Kundu, Z. Zhang, H. Ma, S. Fidler, R. Urtasun</strong>, "Monocular 3D Object Detection for Autonomous Driving"</div>
+                    <div class="paper-item"><span class="paper-tag cvpr">CVPR 2015</span> <strong>X. Chen, H. Ma</strong>, "Improving Object Proposals with Multi-Thresholding Straddling Expansion"</div>
+                </div>
+
+                <!-- Top Journal Papers -->
+                <h3 style="color:var(--primary);margin:32px 0 16px;border-left:3px solid var(--accent);padding-left:12px;">顶刊论文</h3>
+                <div class="paper-list">
+                    <div class="paper-item"><span class="paper-tag journal">Nature Comm. 2026</span> <strong>X. Zhang, T. Hu, J. Lyu, Q. Liu, Q. Zhao, M. Li, K. Li, S. Han, J. Chen, H. Ma</strong>, "Autonomous driving system based on dual process theory and deliberate practice theory"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCSVT 2026</span> <strong>C. Liu, J. Zhuo, B. Zou, J. Chen, Q. Zhao, H. Ma</strong>, "Spatial-frequency Awareness for Low-light Instance Segmentation"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCSVT 2026</span> <strong>Z. Guo, B. Zou, J. Zhuo, H. Ma</strong>, "ME-TST+: Micro-expression Analysis via Temporal State Transition with ROI Relationship Awareness"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCSVT</span> <strong>H. Yu, W. Gong, J. Chen, H. Ma</strong>, "GET3DGS: Generate 3D Gaussians Based on Points Deformation Fields"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TMM 2026</span> <strong>J. Li, J. Chen, J. Liu, H. Yu, X. Ding, H. Ma</strong>, "Multi-Scale Spatial Channel Joint Representation for General Multi-Modality Image Fusion With Self-Supervision"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TPAMI 2025</span> <strong>J. Zhu, H. Ma, J. Chen, J. Yuan</strong>, "Object Detection Data Synthesis via Box-to-Image Generation based on Diffusion Models"</div>
+                    <div class="paper-item"><span class="paper-tag journal">IJCV 2025</span> <strong>J. Zhu, H. Ma, J. Chen et al.</strong>, "DomainStudio: Fine-Tuning Diffusion Models for Domain-Driven Image Generation Using Limited Data"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TIP 2025</span> <strong>H. Yu, W. Gong, J. Chen, H. Ma</strong>, "HomuGAN: A 3D-Aware GAN With the Method of Cylindrical Spatial-Constrained Sampling"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TIP 2024</span> <strong>J. Zhu, H. Ma, J. Chen, J. Yuan</strong>, "High-Quality and Diverse Few-Shot Image Generation via Masked Discrimination"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TVCG</span> <strong>J. Zhu, H. Ma, J. Chen, J. Yuan</strong>, "Isolated Diffusion: Optimizing Multi-Concept Text-to-Image Generation Training-Freely with Isolated Diffusion Guidance"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TITS 2025</span> <strong>J. Ren, B. Zou, J. Lyu, H. Ma</strong>, "MLSTP: A Mamba-based Long-Short Term Fusion Network for Improved Trajectory Prediction in Autonomous Driving"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TITS 2025</span> <strong>S. Liu, X. Li, J. Chen, C. Guo, J. Wu, Q. Luo, H. Ma</strong>, "Individualized driving intention prediction with inverse reinforcement learning"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TSE 2025</span> <strong>H. Liu, J. Liu, T. Hu, H. Ma</strong>, "Spatio-Temporal Probabilistic Forecasting of Wind Speed Using Transformer-Based Diffusion Models"</div>
+                    <div class="paper-item"><span class="paper-tag journal">PR 2026</span> <strong>C. Liu, H. Liu, J. Zhuo, B. Zou, J. Chen, Q. Zhao, H. Ma</strong>, "Implicit alignment and query refinement for RGB-T semantic segmentation"</div>
+                    <div class="paper-item"><span class="paper-tag journal">PR 2025</span> <strong>J. Jiang, H. Ma</strong>, "Efficient Multi-View Stereo with Depth-Aware Iterations and Hybrid Loss Strategy"</div>
+                    <div class="paper-item"><span class="paper-tag journal">PR 2025</span> <strong>B. Zou, Z. Guo, J. Chen, J. Zhuo, W. Huang, H. Ma*</strong>, "RhythmFormer: Extracting patterned rPPG signals based on periodic sparse attention"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TPAMI 2017</span> <strong>X. Zhang, T. Hu, J. Lyu, Q. Liu, Q. Zhao, M. Li, K. Li, S. Han, J. Chen, H. Ma</strong>, "Autonomous driving system based on dual process theory and deliberate practice theory"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCSVT 2026</span> <strong>C. Liu, J. Zhuo, B. Zou, J. Chen, Q. Zhao, H. Ma</strong>, "Spatial-frequency Awareness for Low-light Instance Segmentation"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCSVT 2026</span> <strong>Z. Guo, B. Zou, J. Zhuo, H. Ma</strong>, "ME-TST+: Micro-expression Analysis via Temporal State Transition with ROI Relationship Awareness"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TMM 2026</span> <strong>J. Li, J. Chen, J. Liu, H. Yu, X. Ding, H. Ma</strong>, "Multi-Scale Spatial Channel Joint Representation for General Multi-Modality Image Fusion With Self-Supervision"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TPAMI 2017</span> <strong>X. Chen, K. Kundu, Y. Zhu, A. Berneshawi, H. Ma, S. Fidler, R. Urtasun</strong>, "3D Object Proposals Using Stereo Imagery for Accurate Object Class Detection"</div>
+                    <div class="paper-item"><span class="paper-tag journal">IJCV 2024</span> <strong>H. Ma, S. Yi, S. Chen, J. Chen, Y. Wang</strong>, "Few annotated pixels and point cloud based weakly supervised semantic segmentation of driving scenes"</div>
+                    <div class="paper-item"><span class="paper-tag journal">IJCV 2020</span> <strong>X. Wang, S. Liu, H. Ma*, M.-H. Yang</strong>, "Weakly-Supervised Semantic Segmentation by Iterative Affinity Learning"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TIP 2019</span> <strong>X. Li, H. Ma*</strong>, "Weaklier Supervised Semantic Segmentation with Only One Image Level Annotation per Category"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TIP 2017</span> <strong>X. Wang, H. Ma, S. You, X. Chen</strong>, "Edge Preserving and Multi-Scale Contextual Neural Network for Salient Object Detection"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TITS 2023</span> <strong>C. Guo, H. Liu, J. Chen, H. Ma</strong>, "Temporal Information Fusion Network for Driving Behavior Prediction"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TITS 2020</span> <strong>D. Zhou, H. Ma*, X. Wang, X. Zhang, Y. Dong</strong>, "Driving Behavior Prediction Considering Cognitive Prior and Driving Context"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TITS 2017</span> <strong>X. Li, H. Ma</strong>, "Traffic Light Recognition for Complex Scene with Fusion Detection"</div>
+                    <div class="paper-item"><span class="paper-tag journal">PR 2022</span> <strong>S. Yi, H. Ma, X. Wang, T. Hu, X. Li, Y. Wang</strong>, "Weakly-supervised semantic segmentation with superpixel guided local and global consistency"</div>
+                    <div class="paper-item"><span class="paper-tag journal">PR 2017</span> <strong>Z. Zhao, H. Ma, X. Chen</strong>, "Generalized Symmetric Pair Model for Image Recognition in still images"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TMM 2023</span> <strong>J. Zhu, H. Ma, J. Chen, J. Yuan</strong>, "MotionVideoGAN: A Novel Video Generator Based on the Motion Space Learned From Image Pairs"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TMM 2023</span> <strong>Z. Xing, Y. Wu, S. Liu, S. Di, H. Ma</strong>, "Virtual Try-On With Garment Self-Occlusion Conditions"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCSVT 2022</span> <strong>X. Fu, F. Huang, Y. Zhou, H. Ma, X. Xu, L. Zhang*</strong>, "Cross-Modal Cross-Domain Dual Alignment Network for RGB-Infrared Person Re-Identification"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TIP 2022</span> <strong>Y. Xue, J. Chen, Y. Zhang, C. Yu, H. Ma, H. Ma</strong>, "Boosting Monocular 3D Human Pose Estimation With Part Aware Attention"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TIE 2023</span> <strong>T. Hu, H. Ma, K. Liu, H. Sun</strong>, "Lithium-Ion Battery Calendar Health Prognostics Based on Knowledge-Data-Driven Attention"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TII 2022</span> <strong>T. Hu, H. Ma, H. Liu, H. Sun, K. Liu</strong>, "Self-Attention-Based Machine Theory of Mind for Electric Vehicle Charging Demand Forecast"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TII 2022</span> <strong>K. Liu, Q. Peng, H. Sun, M. Fei, H. Ma*, T. Hu*</strong>, "A Transferred Recurrent Neural Network for Battery Calendar Health Prognostics"</div>
+                </div>
+
+                <!-- Other Notable Papers -->
+                <h3 style="color:var(--primary);margin:32px 0 16px;border-left:3px solid var(--accent);padding-left:12px;">其他重要论文</h3>
+                <div class="paper-list">
+                    <div class="paper-item"><span class="paper-tag conf">ACL FINDINGS 2026</span> <strong>L. Wang, J. Xing, T. Hu, J. Jiang, J. Zhao, H. Ma</strong>, "Bridging the Temporal Gap in Multimodal LLMs: Deeply Stacking Temporal Tokens for Audio-Visual Speech Recognition"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICASSP 2026</span> <strong>J. Lyu, H. Yu, H. Liu, Q. Mei, H. Ma, T. Hu</strong>, "SPAR-GS: Single-View Pose-Free Automobile Reconstruction with 3D Gaussian Splatting"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICASSP 2026</span> <strong>K. Li, X. Zhang, J. Liu, T. Hu, H. Ma</strong>, "KAN-LLM: Kolmogorov-Arnold Networks-Enhanced Large Language Models for Time Series Forecasting"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICME 2025</span> <strong>X. Li, B. Zou, R. Wang, H. Ma*</strong>, "Puzzle-MAE: A Puzzle-Inspired Mask Autoencoder for Multi-Modal Fusion"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICME 2025</span> <strong>X. Zhang, K. Wang, T. Hu*, H. Ma*</strong>, "Efficient Knowledge Transfer in Multi-Task Learning through Task-Adaptive Low-Rank Representation"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICME 2025</span> <strong>K. Wang, X. Zhang, J. Lyu, T. Hu*, H. Ma</strong>, "CSCE: Boosting LLM Reasoning by Simultaneous Enhancing of Causal Significance and Consistency"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICASSP 2025</span> <strong>R. Wang, X. Xu, H. Yang, L. Wei, H. Ma*</strong>, "A novel multimodal personality prediction method based on pretrained models and graph relational transformer network"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICASSP 2025</span> <strong>B. Zou, Z. Guo, W. Qin, X. Li, K. Wang, H. Ma*</strong>, "Synergistic Spotting and Recognition of Micro-Expression via Temporal State Transition"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICASSP 2025</span> <strong>X. Zhang, K. Wang, T. Hu*, H. Ma*</strong>, "Enhancing Autonomous Driving through Dual-Process Learning with Behavior and Reflection Integration"</div>
+                    <div class="paper-item"><span class="paper-tag journal">CSEE JPES 2026</span> <strong>M. Li, H. Liu, K. Li, J. Liu, T. Hu, H. Ma</strong>, "Causality-enhanced large language forecaster for wind speed and wind power forecasting"</div>
+                    <div class="paper-item"><span class="paper-tag journal">CSEE JPES 2026</span> <strong>H. Liu, T. Hu, H. Ma</strong>, "Short-term wind speed forecasting using graph attention and frequency domain attention"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TCE 2025</span> <strong>C. Fan, K. Song, B. Zou, X. Hu, H. Ma</strong>, "DA-Distill: Dual-Alignment Distillation for Multimodal Knowledge Transfer on Edge Devices"</div>
+                    <div class="paper-item"><span class="paper-tag journal">Neurocomputing 2024</span> <strong>H. Liu, F. Liang, T. Hu, J. Hong, H. Ma</strong>, "Multi-Scale Fusion Model Based on Gated Recurrent Unit for Enhancing Prediction Accuracy of State-of-Charge"</div>
+                    <div class="paper-item"><span class="paper-tag journal">J. Autism 2019</span> <strong>P. Zhou, L. Zhan, H. Ma</strong>, "Understanding others' minds: Social inference in preschool children with autism spectrum disorder"</div>
+                    <div class="paper-item"><span class="paper-tag journal">PR 2011</span> <strong>S. You, H. Ma</strong>, "Manifold topological multi-resolution analysis method"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TVC 2019</span> <strong>J. Wen, H. Ma*, X. Luo</strong>, "Deep Generative Smoke Simulator: Connecting Simulated and Real Data"</div>
+                    <div class="paper-item"><span class="paper-tag journal">TAC 2022</span> <strong>B. Zou, J. Han, Y. Wang, R. Liu, S. Zhao, L. Feng, X. Lyu, H. Ma*</strong>, "Semi-structural interview-based Chinese multimodal depression corpus towards automatic preliminary screening of depressive disorders"</div>
+                    <div class="paper-item"><span class="paper-tag journal">KBS 2021</span> <strong>X. Ni, L. Zhang, X. Xu, T. Guo, H. Ma</strong>, "Label Disentangled Analysis for Unsupervised Visual Domain Adaptation"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ACCV 2022</span> <strong>K. Song, Y. Wu, J. Chen, T. Hu, H. Ma</strong>, "Gestalt-Guided Image Understanding for Few-Shot Learning"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICASSP 2024</span> <strong>S. Chen et al.</strong>, "PLS: Unsupervised Domain Adaptation for 3D Object Detection Via Pseudo-Label Sizes"</div>
+                    <div class="paper-item"><span class="paper-tag conf">ICME 2024</span> <strong>X. Li</strong>, "EMo Transformer: Transformer-Based Depression Detection via Eye Movements"</div>
+                    <div class="paper-item"><span class="paper-tag conf">MM 2023</span> <strong>W. Qin, B. Zou, X. Li, W. Wang, H. Ma</strong>, "Micro-Expression Spotting with Face Alignment and Optical Flow"</div>
+                    <div class="paper-item"><span class="paper-tag conf">PRCV 2021</span> <strong>P. Lin, X. Wang, J. Chen, H. Ma, H. Ma</strong>, "Face Anti-Spoofing Based on Cooperative Pose Analysis"</div>
+                    <div class="paper-item"><span class="paper-tag conf">PRCV 2021</span> <strong>J. Bao, J. Chen, H. Ma, H. Ma, C. Yu, Y. Huang</strong>, "Improving Adversarial Robustness of Detector via Objectness Regularization"</div>
+                </div>
+
+                <p style="margin-top:24px;font-size:0.85rem;color:var(--text-muted);">更多论文请访问 Google Scholar 完整列表</p>
+            </div>
+
+            <!-- ========== Patents Panel ========== -->
+            <div class="pub-panel" id="panel-patents">
+                <div class="patent-stats">
+                    <div class="stat-card"><span class="stat-number">74</span><span class="stat-label">已授权专利</span></div>
+                    <div class="stat-card"><span class="stat-number">19</span><span class="stat-label">审查中专利</span></div>
+                </div>
+                <div style="text-align:center;margin-bottom:24px;">
+                    <button class="toggle-btn" onclick="togglePatents()">展开全部专利列表</button>
+                </div>
+                <div class="patent-list" id="patentList">
+                    <h3 class="patent-category">自动驾驶与3D感知</h3>
+                    <ul class="patent-items">
+                        <li><strong>一种基于点云地图的单帧点云分割数据标注方法及装置</strong> — ZL 202610457655.4 <em>审查中</em></li>
+                        <li><strong>一种基于开放目标检测的无人车周围目标识别方法及系统</strong> — ZL 202511168152.7 <em>已授权</em></li>
+                        <li><strong>一种无监督的端到端多目标跟踪方法及装置</strong> — ZL 202511428233.6 <em>审查中</em></li>
+                        <li><strong>一种基于激光雷达的异构协同感知3D目标检测方法</strong> — ZL 202510119210.0 <em>已授权</em></li>
+                        <li><strong>一种基于3DGS的单图车辆重建方法及系统</strong> — ZL 202510243879.0 <em>已授权</em></li>
+                        <li><strong>一种基于多视角一致性的零样本点云实例分割方法和系统</strong> — ZL 202510546772.3 <em>已授权</em></li>
+                        <li><strong>基于建议-优化框架的自动驾驶轨迹预测方法及系统</strong> — ZL 202410731488.9 <em>已授权</em></li>
+                        <li><strong>一种基于长短时预测的自动驾驶轨迹预测方法及装置</strong> — ZL 202410664898.6 <em>已授权</em></li>
+                        <li><strong>基于场景重建的三维点云标注方法与系统</strong> — ZL 202410314925.7 <em>已授权</em></li>
+                        <li><strong>可见光相机，红外相机与激光雷达的联合标定方法及系统</strong> — ZL 202410106754.9 <em>已授权</em></li>
+                        <li><strong>一种多模态弱监督三维目标检测方法，系统及设备</strong> — ZL 202211435079.1 <em>已授权</em></li>
+                        <li><strong>障碍物检测方法，模型训练方法，装置及自动驾驶车辆</strong> — ZL 202111154672.4 <em>已授权</em></li>
+                        <li><strong>一种适用于长距离城市道路的自动驾驶决策方法及系统</strong> — ZL 202110463384.0 <em>已授权</em></li>
+                        <li><strong>用于智能驾驶的深度学习图像识别方法，系统及终端设备</strong> — ZL 201610929312.X <em>已授权</em></li>
+                        <li><strong>一种基于结构化场景理解的目标导航方法及装置</strong> — 202410181460.2 <em>审查中</em></li>
+                        <li><strong>一种基于仿真环境的场景结构标注数据生成方法及装置</strong> — 202410181444.3 <em>审查中</em></li>
+                        <li><strong>一种基于三维高斯泼溅的仿真方法及系统</strong> — 202411868093.X <em>审查中</em></li>
+                        <li><strong>一种空地协同感知数据采集及时空同步对齐系统和方法</strong> — 202511043424.0 <em>审查中</em></li>
+                    </ul>
+
+                    <h3 class="patent-category">情感计算与认知</h3>
+                    <ul class="patent-items">
+                        <li><strong>基于注意力干预的多模态大模型心智能力提升方法及装置</strong> — ZL 202510982491.2 <em>审查中</em></li>
+                        <li><strong>一种因果一致性正则驱动的驾驶员情绪状态归因方法</strong> — ZL 202512057517.5 <em>审查中</em></li>
+                        <li><strong>一种驾驶员个性化驾驶意图预测方法及系统</strong> — ZL 202410909042.0 <em>已授权</em></li>
+                        <li><strong>一种基于上半身姿态的驾驶员情绪状态检测方法及系统</strong> — ZL 202410597315.2 <em>已授权</em></li>
+                        <li><strong>一种非接触多生命体征监测方法及装置</strong> — ZL 202410755157.9 <em>已授权</em></li>
+                        <li><strong>一种基于非接触生理信号的情绪识别方法及装置</strong> — ZL 202310158469.7 <em>已授权</em></li>
+                        <li><strong>基于融合特征增强的非接触式生理信号检测方法及装置</strong> — ZL 202410168344.7 <em>已授权</em></li>
+                        <li><strong>一种基于高效时空建模的非接触生理信号检测方法及系统</strong> — ZL 202211451949.4 <em>已授权</em></li>
+                        <li><strong>一种基于周期稀疏注意的周期性信号检测方法及装置</strong> — ZL 202410170587.4 <em>已授权</em></li>
+                        <li><strong>基于模拟场景与交互任务设计的社交焦虑干预方法及系统</strong> — ZL 202210913181.1 <em>已授权</em></li>
+                        <li><strong>一种多模态抑郁情绪识别方法及装置</strong> — ZL 202211671363.9 <em>已授权</em></li>
+                        <li><strong>基于眼动序列时空特征分析的抑郁状态鉴别方法及装置</strong> — ZL 202211598004.5 <em>已授权</em></li>
+                        <li><strong>基于图像的显著性差异和情绪分析的抑郁人群眼动鉴别方法</strong> — ZL 202011530259.9 <em>已授权</em></li>
+                        <li><strong>一种基于视频注视差异的心理测评系统</strong> — ZL 202110865777.4 <em>已授权</em></li>
+                        <li><strong>一种心理测评数据管理系统及方法</strong> — ZL 202210958034.6 <em>已授权</em></li>
+                        <li><strong>基于视觉认知注意的心理测评数据采集与干预方法及系统</strong> — ZL 202210159451.4 <em>已授权</em></li>
+                        <li><strong>基于图像视觉认知的心理测评数据获取方法及VR系统</strong> — ZL 202210154330.0 <em>已授权</em></li>
+                        <li><strong>基于眼动特征分析的图像认知心理分析系统</strong> — ZL 201710027561.4 <em>已授权</em></li>
+                        <li><strong>一种图像认知心理分析系统</strong> — ZL 201310221563.9 <em>已授权</em></li>
+                        <li><strong>基于MMPI心理量表的图像库及其构建方法</strong> — ZL 201310222323.0 <em>已授权</em></li>
+                        <li><strong>基于状态机-大模型的多智能体空战协同控制方法及装置</strong> — ZL 202511117703.7 <em>审查中</em></li>
+                        <li><strong>一种驾驶场景人因安全监测实验平台及方法</strong> — 202411335004.5 <em>审查中</em></li>
+                    </ul>
+
+                    <h3 class="patent-category">图像融合与视觉感知</h3>
+                    <ul class="patent-items">
+                        <li><strong>一种基于场景关系认知的鲁棒图像融合方法及装置</strong> — ZL 202511774395.5 <em>已授权</em></li>
+                        <li><strong>基于时空分层注意力网络的多模态视频融合方法及装置</strong> — ZL 202511559535.7 <em>已授权</em></li>
+                        <li><strong>基于可见光与红外图像决策级融合检测框标定方法及装置</strong> — ZL 202511466816.8 <em>已授权</em></li>
+                        <li><strong>一种基于空频融合的低照度感知方法及系统</strong> — ZL 202511347038.0 <em>已授权</em></li>
+                        <li><strong>基于决策级融合的低光照场景多模态行人检测跟踪方法</strong> — ZL 202311537940.X <em>已授权</em></li>
+                        <li><strong>基于注意力机制的鲁棒自监督多模态图像融合方法及装置</strong> — ZL 202410611048 <em>已授权</em></li>
+                        <li><strong>一种基于辐射场和生成对抗网络的数据生成方法及装置</strong> — ZL 202310111709.8 <em>已授权</em></li>
+                        <li><strong>一种虚拟场景数据标注生成方法及系统</strong> — ZL 202310294094.7 <em>已授权</em></li>
+                        <li><strong>基于真实数据集的三维驾驶场景生成与构建方法及装置</strong> — ZL 202310473105.8 <em>已授权</em></li>
+                        <li><strong>基于迭代挖掘物体共同特征的弱监督图像语义分割方法</strong> — ZL 201810594322.1 <em>已授权</em></li>
+                        <li><strong>一种基于单一像素标注的图像语义分割方法及系统</strong> — ZL 202010023166.0 <em>已授权</em></li>
+                        <li><strong>基于新型神经网络的多任务场景语义理解模型及其应用</strong> — ZL 201710453745.7 <em>已授权</em></li>
+                        <li><strong>一种基于遮挡维度的图像库构建方法</strong> — ZL 201610930997.X <em>已授权</em></li>
+                        <li><strong>海面红外对抗仿真系统</strong> — ZL 201510109242.9 <em>已授权</em></li>
+                        <li><strong>空中红外目标对抗仿真系统</strong> — ZL 201510192315.5 <em>已授权</em></li>
+                        <li><strong>对抗仿真寻优方法及系统</strong> — ZL 201510132160.6 <em>已授权</em></li>
+                        <li><strong>基于仿真红外成像导航模型的对抗仿真导航方法及系统</strong> — 2023106243237 <em>审查中</em></li>
+                    </ul>
+
+                    <h3 class="patent-category">人格预测与多模态分析</h3>
+                    <ul class="patent-items">
+                        <li><strong>多种关联特征和图关系注意的多模态人格感知方法及装置</strong> — ZL 202411236190.7 <em>已授权</em></li>
+                        <li><strong>融合CLIP和自适应图变换网络的人格预测方法及装置</strong> — ZL 202411145652.4 <em>已授权</em></li>
+                        <li><strong>基于预训练模型和金字塔图融合的多模态人格预测方法</strong> — ZL 202411884879.0 <em>已授权</em></li>
+                        <li><strong>一种融合时空图注意力网络的多模态人格预测方法和系统</strong> — ZL 202410393379.0 <em>已授权</em></li>
+                        <li><strong>基于多模态特征和层次特征融合的情绪识别方法及系统</strong> — ZL 202411193418.9 <em>已授权</em></li>
+                        <li><strong>基于多模态融合的大五人格特征预测方法</strong> — 202410082720.0 <em>审查中</em></li>
+                        <li><strong>基于预训练和图关系变换网络多模态人格预测方法及装置</strong> — 202411772031.9 <em>审查中</em></li>
+                    </ul>
+
+                    <h3 class="patent-category">对抗鲁棒性与安全</h3>
+                    <ul class="patent-items">
+                        <li><strong>一种基于交叉权重的对抗鲁棒公平性增强方法及装置</strong> — ZL 202511831330.X <em>审查中</em></li>
+                        <li><strong>一种艺术性对抗性背景的生成方法及装置</strong> — ZL 202510711130.4 <em>审查中</em></li>
+                        <li><strong>一种思维链引导的多模态大模型对抗样本检测方法及装置</strong> — ZL 202510891996.8 <em>已授权</em></li>
+                        <li><strong>针对对抗通用补丁攻击的鲁棒视觉Transformer视觉感知方法及装置</strong> — ZL 202310190344.2 <em>已授权</em></li>
+                        <li><strong>一种基于相机姿态估计模型的对抗鲁棒评估方法及系统</strong> — 202510130239.9 <em>审查中</em></li>
+                    </ul>
+
+                    <h3 class="patent-category">大语言模型与智能系统</h3>
+                    <ul class="patent-items">
+                        <li><strong>一种基于Kolmogorov-Arnold Networks增强的大模型时序预测方法及系统</strong> — ZL 202610309945.4 <em>审查中</em></li>
+                        <li><strong>一种混合专家与权重分解低秩适配的智能问答方法及装置</strong> — ZL 202610431742.2 <em>审查中</em></li>
+                        <li><strong>遥感生成图像的语义标注方法及电子设备</strong> — ZL 202610063063.4 <em>已授权</em></li>
+                        <li><strong>长短期记忆协同的适配性微调RAG融合大语言模型系统</strong> — ZL 202511911041.0 <em>审查中</em></li>
+                        <li><strong>一种基于提示的脑肿瘤交互式分割方法及系统</strong> — ZL 202510498889.9 <em>已授权</em></li>
+                        <li><strong>一种基于大语言模型先验知识的推理状态控制方法及装置</strong> — ZL 202410851175.7 <em>已授权</em></li>
+                        <li><strong>一种基于知识与数据联合的路径规划方法，应用及装置</strong> — ZL 202311816500.8 <em>已授权</em></li>
+                        <li><strong>一种基于OD数据的多目标旅行商控制方法，系统及介质</strong> — ZL 2023110864004 <em>已授权</em></li>
+                        <li><strong>一种基于特征调制的自适应小样本图像分类方法及装置</strong> — ZL 202310104730.5 <em>已授权</em></li>
+                        <li><strong>一种适用于多图形接口的跨平台的仿真系统</strong> — ZL 202310240069.0 <em>已授权</em></li>
+                        <li><strong>基于图卷积神经网络和Transformer的时空短期风速预测方法及系统</strong> — ZL 202211341900.3 <em>已授权</em></li>
+                        <li><strong>一种社交网络中社区结构的检测方法</strong> — ZL 202210996162.X <em>已授权</em></li>
+                        <li><strong>基于有监督学习检测蛋白质复合物的方法及装置</strong> — ZL 202111558297.X <em>已授权</em></li>
+                        <li><strong>一种基于自注意力机制的个性化注视点检测方法及装置</strong> — ZL 202210818407.X <em>已授权</em></li>
+                        <li><strong>一种差分式二维注视点检测方法及装置</strong> — ZL 202110822170.8 <em>已授权</em></li>
+                        <li><strong>基于伪标签大小的无监督领域自适应目标检测方法及系统</strong> — ZL 2023105523368 <em>已授权</em></li>
+                        <li><strong>特征解耦的少量样本预训练模型鲁棒性微调方法及装置</strong> — ZL 202311273553X <em>已授权</em></li>
+                        <li><strong>基于特征分布对齐与聚类的零样本草图检索方法及系统</strong> — ZL 2023113991961 <em>已授权</em></li>
+                        <li><strong>基于多尺度融合GRU网络的汽车电池SOC多步预测方法与系统</strong> — ZL 202410106018.3 <em>已授权</em></li>
+                        <li><strong>基于注意力的锂离子电池日历老化预测模型和方法</strong> — ZL 202310023441.2 <em>已授权</em></li>
+                        <li><strong>基于机器心智模型和自注意力的风力发电分位数预测方法</strong> — ZL 202310014898.7 <em>已授权</em></li>
+                        <li><strong>一种集群机器人合作导航的多向课程学习训练方法及装置</strong> — ZL 202311374713.X <em>已授权</em></li>
+                        <li><strong>一种基于话题聚类和转移预测的图像段落释意方法</strong> — ZL 2023107044955 <em>已授权</em></li>
+                        <li><strong>基于主成分分析的舰船干扰对抗决策优化与评估方法</strong> — ZL 200910123941.3 <em>已授权</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 3D Image Lab · 北京科技大学 三维图像仿真与识别实验室 · <a href="contact.html">联系我们</a></p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
