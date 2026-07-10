@@ -212,9 +212,10 @@ img { max-width: 100%; display: block; }
     display: flex; gap: 18px; padding: 24px;
     background: #fff; border-radius: 12px; border: 1px solid var(--card-border);
     box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
-.faculty-card:hover { transform: translateY(-2px); }
+.faculty-card[onclick] { cursor: pointer; }
+.faculty-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
 .avatar {
     width: 72px; height: 72px; border-radius: 50%; flex-shrink: 0;
     background: linear-gradient(135deg, var(--primary), var(--primary-light));
@@ -285,12 +286,13 @@ img { max-width: 100%; display: block; }
 
 /* Scholar link */
 .scholar-link {
-    display: inline-block; font-size: 0.72rem; font-weight: 700;
-    color: var(--accent); background: #eff6ff;
-    padding: 1px 6px; border-radius: 4px; text-decoration: none;
-    transition: background 0.2s; vertical-align: middle;
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px;
+    background: #eff6ff; border-radius: 4px; text-decoration: none;
+    transition: background 0.2s; vertical-align: middle; padding: 2px;
 }
 .scholar-link:hover { background: #dbeafe; }
+.scholar-link svg { width: 14px; height: 14px; fill: var(--accent); }
 
 /* Student & Faculty photo */
 .faculty-photo {
