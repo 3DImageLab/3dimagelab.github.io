@@ -87,13 +87,6 @@ function switchTeamTab(tab) {
   });
 }
 
-function toggleAlumni(btn) {
-  const section = btn.nextElementSibling;
-  if (!section) return;
-  const isHidden = section.style.display === 'none';
-  section.style.display = isHidden ? 'block' : 'none';
-  btn.textContent = isHidden ? btn.textContent.replace('显示', '隐藏') : btn.textContent.replace('隐藏', '显示');
-}
 
 /* ========== 5. 专利列表（始终展开） ========== */
 
