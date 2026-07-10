@@ -27,13 +27,22 @@
 
     <!-- Hero -->
     <div class="hero-gallery" id="heroGallery">
-        <img src="images/gallery/古北水镇-scaled.jpeg" alt="3D Image Lab" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+        <div class="slides">
+            <div class="slide" style="background-image:url('images/gallery/古北水镇-scaled.jpeg')"></div>
+            <div class="slide" style="background-image:url('images/gallery/河北-野三坡.jpg')"></div>
+            <div class="slide" style="background-image:url('images/gallery/河北-野三坡2.jpg')"></div>
+        </div>
         <div class="slide-content">
             <div class="container">
                 <h1>三维图像仿真与识别实验室</h1>
                 <p class="subtitle">3D Image Simulation and Recognition Lab · USTB</p>
                 <p class="uni">北京科技大学 计算机与通信工程学院</p>
             </div>
+        </div>
+        <div class="slide-dots">
+            <span class="dot active" onclick="galleryGo(0)"></span>
+            <span class="dot" onclick="galleryGo(1)"></span>
+            <span class="dot" onclick="galleryGo(2)"></span>
         </div>
     </div>
 

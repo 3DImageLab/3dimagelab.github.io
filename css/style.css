@@ -113,6 +113,18 @@ img { max-width: 100%; display: block; }
 .slide-placeholder.bg2 { background: linear-gradient(135deg, #1a3a5c, #2a6496, #3b82f6); }
 .slide-placeholder.bg3 { background: linear-gradient(135deg, #0f2b45, #1a3a5c, #4a90d9); }
 
+/* Slide dots */
+.slide-dots {
+    position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+    z-index: 3; display: flex; gap: 8px;
+}
+.slide-dots .dot {
+    width: 10px; height: 10px; border-radius: 50%; cursor: pointer;
+    background: rgba(255,255,255,0.4); transition: all 0.3s;
+}
+.slide-dots .dot.active { background: #fff; transform: scale(1.2); }
+.slide-dots .dot:hover { background: rgba(255,255,255,0.7); }
+
 /* Gallery nav dots */
 .gallery-dots {
     position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
