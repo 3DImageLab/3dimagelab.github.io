@@ -87,14 +87,7 @@ function switchTeamTab(tab) {
   });
 }
 
-/* ========== 5. 专利列表折叠/展开 ========== */
-function togglePatents() {
-  const list = document.getElementById('patentList');
-  const btn = document.querySelector('.toggle-btn');
-  if (!list || !btn) return;
-  const expanded = list.classList.toggle('expanded');
-  btn.textContent = expanded ? '收起 ▲' : '展开全部专利列表 ▼';
-}
+/* ========== 5. 专利列表（始终展开） ========== */
 
 /* ========== 6. 平滑滚动（锚点链接）========== */
 document.addEventListener('click', (e) => {
@@ -106,3 +99,5 @@ document.addEventListener('click', (e) => {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 });
+
+/* ========== 7. 研究方向（Grid布局，无需轮播JS） ========== */

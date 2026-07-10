@@ -25,59 +25,15 @@
         </div>
     </nav>
 
-    <!-- Hero Gallery -->
+    <!-- Hero -->
     <div class="hero-gallery" id="heroGallery">
-        <div class="slides" id="gallerySlides">
-            <!-- Slide 1 -->
-            <div class="slide">
-                <img src="images/gallery/slide1.jpg" alt="3D Image Lab" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <div class="slide-placeholder bg1" style="display:none">
-                    <span>实验室场景图片 — 请替换为实际图片</span>
-                </div>
-                <div class="slide-content">
-                    <div class="container">
-                        <h1>3D Image Simulation and Recognition Lab</h1>
-                        <p class="subtitle">3D Image Lab of USTB</p>
-                        <p class="uni">北京科技大学 计算机与通信工程学院</p>
-                    </div>
-                </div>
+        <img src="images/gallery/古北水镇-scaled.jpeg" alt="3D Image Lab" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+        <div class="slide-content">
+            <div class="container">
+                <h1>3D Image Simulation and Recognition Lab</h1>
+                <p class="subtitle">3D Image Lab of USTB</p>
+                <p class="uni">北京科技大学 计算机与通信工程学院</p>
             </div>
-            <!-- Slide 2 -->
-            <div class="slide">
-                <img src="images/gallery/slide2.jpg" alt="Autonomous Driving" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <div class="slide-placeholder bg2" style="display:none">
-                    <span>研究方向展示图片 — 请替换为实际图片</span>
-                </div>
-                <div class="slide-content">
-                    <div class="container">
-                        <h1>自动驾驶感知</h1>
-                        <p class="subtitle">Autonomous Driving Perception</p>
-                        <p class="uni">3D目标检测 · 轨迹预测 · 多模态融合</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Slide 3 -->
-            <div class="slide">
-                <img src="images/gallery/slide3.jpg" alt="Affective Computing" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <div class="slide-placeholder bg3" style="display:none">
-                    <span>研究成果展示图片 — 请替换为实际图片</span>
-                </div>
-                <div class="slide-content">
-                    <div class="container">
-                        <h1>情感计算与认知</h1>
-                        <p class="subtitle">Affective Computing & Cognition</p>
-                        <p class="uni">情绪识别 · 心理测评 · 人机交互</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Gallery Controls -->
-        <button class="gallery-arrow prev" onclick="gallerySlide(-1)">&#10094;</button>
-        <button class="gallery-arrow next" onclick="gallerySlide(1)">&#10095;</button>
-        <div class="gallery-dots" id="galleryDots">
-            <button class="dot active" onclick="galleryGo(0)"></button>
-            <button class="dot" onclick="galleryGo(1)"></button>
-            <button class="dot" onclick="galleryGo(2)"></button>
         </div>
     </div>
 
@@ -109,41 +65,50 @@
         </div>
     </section>
 
-    <!-- Research Highlights -->
+    <!-- Research Directions -->
     <section class="section section-alt">
         <div class="container">
-            <h2 class="section-title">近期工作</h2>
-            <p class="section-subtitle">Recent Research Highlights</p>
+            <h2 class="section-title">研究方向</h2>
+            <p class="section-subtitle">Research Directions</p>
             <div class="section-divider"></div>
-            <div class="highlights">
-                <div class="highlight-card">
-                    <img src="images/research/research1.jpg" alt="3D Object Detection" style="width:100%;height:200px;object-fit:cover;background:var(--bg-alt);" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                    <div class="highlight-placeholder" style="display:none">研究图片 1 — 待替换</div>
-                    <div class="card-body">
-                        <h3>自动驾驶3D目标检测</h3>
-                        <p>基于多模态融合与点云处理的三维目标检测方法，在KITTI和nuScenes基准上达到先进水平。</p>
-                        <span class="tag">Autonomous Driving</span>
+            <div class="highlights research-grid" style="grid-template-columns: repeat(2, 1fr);">
+                    <div class="highlight-card">
+                        <img src="images/research/affective.jpg" alt="Affective Computing" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="highlight-placeholder" style="display:none">情感计算与认知增强</div>
+                        <div class="card-body">
+                            <h3>情感计算与认知增强</h3>
+                            <p>构建基于图像认知的心理测评系统，实现心理状态的客观量化评估，融合多模态信号进行情感识别与人格计算。</p>
+                            <span class="tag">Affective Computing</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img src="images/research/detection.jpg" alt="Object Detection" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="highlight-placeholder" style="display:none">目标识别与检测</div>
+                        <div class="card-body">
+                            <h3>目标识别与检测</h3>
+                            <p>自动驾驶3D目标检测、小样本目标识别、弱监督驾驶场景分割、轨迹预测与意图识别，在KITTI连续三年获得第一。</p>
+                            <span class="tag">Object Detection</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img src="images/research/simulation.jpg" alt="Simulation" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="highlight-placeholder" style="display:none">仿真与数据生成</div>
+                        <div class="card-body">
+                            <h3>仿真与数据生成</h3>
+                            <p>GSim智能仿真平台：车辆素材生成、实例替换、天气模拟、光照系统、点云仿真、相机漫游与感知算法测试。</p>
+                            <span class="tag">Simulation & Generation</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img src="images/research/llm_decision.jpg" alt="LLM Decision" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="highlight-placeholder" style="display:none">基于大模型的智能决策框架</div>
+                        <div class="card-body">
+                            <h3>基于大模型的智能决策框架</h3>
+                            <p>智能驾驶双向推理、多智能体协同决策，让机器学习人的思维方式，实现人机混合智能。</p>
+                            <span class="tag">LLM for Decision-Making</span>
+                        </div>
                     </div>
                 </div>
-                <div class="highlight-card">
-                    <img src="images/research/research2.jpg" alt="Affective Computing" style="width:100%;height:200px;object-fit:cover;background:var(--bg-alt);" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                    <div class="highlight-placeholder" style="display:none">研究图片 2 — 待替换</div>
-                    <div class="card-body">
-                        <h3>多模态情感计算</h3>
-                        <p>融合视觉、语音、生理信号的多模态情感识别与人格预测方法，应用于心理健康辅助评估。</p>
-                        <span class="tag">Affective Computing</span>
-                    </div>
-                </div>
-                <div class="highlight-card">
-                    <img src="images/research/research3.jpg" alt="Adversarial Robustness" style="width:100%;height:200px;object-fit:cover;background:var(--bg-alt);" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                    <div class="highlight-placeholder" style="display:none">研究图片 3 — 待替换</div>
-                    <div class="card-body">
-                        <h3>对抗鲁棒性与安全</h3>
-                        <p>针对视觉Transformer和深度网络的对抗攻击与防御方法研究，提升模型在真实场景中的可靠性。</p>
-                        <span class="tag">Adversarial Robustness</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -162,36 +127,6 @@
                     <div class="news-body">
                         <h3>实验室荣获北京市科学技术奖</h3>
                         <p>马惠敏教授团队研究成果荣获北京市科学技术奖，充分肯定了团队在智能视觉与自动驾驶领域的突出贡献。<a href="awards/beijing-award.pdf" target="_blank" style="color:var(--accent);font-weight:500;">查看获奖证书 →</a></p>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">
-                        <span class="day">2025</span>
-                        <span class="month">02</span>
-                    </div>
-                    <div class="news-body">
-                        <h3>4篇论文被AAAI 2025接收</h3>
-                        <p>李嘉伟、余宏伟、邹博超、卓君宝等同学的4篇论文被AAAI 2025录用，涵盖对抗鲁棒性、红外-可见光融合、rPPG测量、3D车辆重建及图像-视频域适应等方向。</p>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">
-                        <span class="day">2025</span>
-                        <span class="month">01</span>
-                    </div>
-                    <div class="news-body">
-                        <h3>多篇论文发表于国际顶级期刊</h3>
-                        <p>近期在Pattern Recognition、IEEE TIP、IEEE TVCG、IEEE TCSVT等国际顶级期刊发表多篇论文，涉及3D目标检测、3D-Aware GAN、rPPG测量、自动驾驶轨迹预测等前沿方向。</p>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <div class="news-date">
-                        <span class="day">2024</span>
-                        <span class="month">09</span>
-                    </div>
-                    <div class="news-body">
-                        <h3>多篇论文被NeurIPS 2024、ACM MM 2024接收</h3>
-                        <p>ODGEN数据生成方法被NeurIPS 2024录用，CMT无监督域适应3D检测和Affinity3D零样本点云分割被ACM MM 2024录用，ICML 2024发表信息交互动力学研究。</p>
                     </div>
                 </div>
             </div>
