@@ -308,12 +308,18 @@ img { max-width: 100%; display: block; }
 
 /* Student & Faculty photo */
 .faculty-photo {
-    width: 88px; height: auto; border-radius: 12px;
-    flex-shrink: 0; border: 2px solid var(--card-border);
+    width: 88px; height: 88px; border-radius: 12px; object-fit: cover;
+    object-position: center 20%;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 2px var(--card-border);
+    display: block;
 }
 .student-photo {
-    width: 48px; height: auto; border-radius: 8px;
-    flex-shrink: 0; border: 1px solid var(--card-border);
+    width: 48px; height: 48px; border-radius: 8px; object-fit: cover;
+    object-position: center 20%;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 1px var(--card-border);
+    display: block;
 }
 
 /* ===== Patents ===== */
