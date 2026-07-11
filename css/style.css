@@ -308,13 +308,11 @@ img { max-width: 100%; display: block; }
 
 /* Student & Faculty photo */
 .faculty-photo {
-    width: 88px; height: auto; border-radius: 12px; object-fit: contain;
-    aspect-ratio: 1/1;
+    width: 88px; max-height: 110px; border-radius: 12px; object-fit: contain;
     flex-shrink: 0; border: 2px solid var(--card-border);
 }
 .student-photo {
-    width: 48px; height: auto; border-radius: 8px; object-fit: contain;
-    aspect-ratio: 1/1;
+    width: 48px; max-height: 60px; border-radius: 8px; object-fit: contain;
     flex-shrink: 0; border: 1px solid var(--card-border);
 }
 
