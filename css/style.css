@@ -217,6 +217,11 @@ img { max-width: 100%; display: block; }
 .team-tab.active { background: var(--primary); color: #fff; border-color: var(--primary); }
 .team-panel { display: none; }
 .team-panel.active { display: block; }
+.alumni-group-title {
+    font-size: 1.1rem; color: var(--primary); margin: 24px 0 12px; padding-bottom: 8px;
+    border-bottom: 2px solid var(--card-border);
+}
+.alumni-group-title:first-child { margin-top: 0; }
 
 /* Teacher cards */
 .faculty-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }

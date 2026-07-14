@@ -32,8 +32,9 @@
         <div class="container">
             <div class="team-tabs">
                 <button class="team-tab active" data-tab="faculty" onclick="switchTeamTab('faculty')">教师</button>
-                <button class="team-tab" data-tab="phd" onclick="switchTeamTab('phd')">博士生</button>
-                <button class="team-tab" data-tab="master" onclick="switchTeamTab('master')">硕士生</button>
+                <button class="team-tab" data-tab="phd" onclick="switchTeamTab('phd')">在读博士生</button>
+                <button class="team-tab" data-tab="master" onclick="switchTeamTab('master')">在读硕士生</button>
+                <button class="team-tab" data-tab="alumni" onclick="switchTeamTab('alumni')">毕业学生</button>
             </div>
 
             <!-- Faculty -->
@@ -358,6 +359,17 @@
                         <div class="avatar sm" style="display:none">黄</div>
                         <div><h4>黄欢</h4><p>2026级硕士 · Computer Vision</p></div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Alumni -->
+            <div class="team-panel" id="panel-alumni">
+                <h3 class="alumni-group-title">清华实验室毕业学生</h3>
+                <div class="student-grid">
+                </div>
+
+                <h3 class="alumni-group-title">北科实验室毕业学生</h3>
+                <div class="student-grid">
                 </div>
             </div>
         </div>
