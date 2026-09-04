@@ -35,8 +35,8 @@
         </div>
         <div class="slide-content">
             <div class="container">
-                <h1>三维图像仿真与识别实验室</h1>
-                <p class="subtitle">3D Image Simulation and Recognition Lab · USTB</p>
+                <h1>三维图像认知与仿真实验室</h1>
+                <p class="subtitle">3D Image Cognition and Simulation Laboratory · USTB</p>
                 <p class="uni">北京科技大学 计算机与通信工程学院</p>
             </div>
         </div>
@@ -159,7 +159,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>© 2026 3D Image Lab · 北京科技大学 三维图像仿真与识别实验室 · <a href="contact.html">联系我们</a></p>
+            <p>© 2026 3D Image Lab · 北京科技大学 三维图像认知与仿真实验室 · <a href="contact.html">联系我们</a></p>
         </div>
     </footer>
     <script>document.addEventListener('DOMContentLoaded', () => { const navbar = document.querySelector('.navbar'); if (navbar) { window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 20); }); } const menuToggle = document.querySelector('.menu-toggle'); const navMenu = document.querySelector('.nav-menu'); if (menuToggle && navMenu) { menuToggle.addEventListener('click', () => { navMenu.classList.toggle('open'); }); navMenu.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => navMenu.classList.remove('open')); }); } if (document.querySelector('.hero-gallery')) { startGalleryAutoPlay(); } }); let galleryIndex = 0; let galleryTimer = null; function gallerySlide(dir) { const slides = document.querySelector('.hero-gallery .slides'); if (!slides) return; const total = slides.children.length; galleryIndex = (galleryIndex + dir + total) % total; updateGallery(); resetGalleryAutoPlay(); } function galleryGo(n) { galleryIndex = n; updateGallery(); resetGalleryAutoPlay(); } function updateGallery() { const slides = document.querySelector('.hero-gallery .slides'); const dots = document.querySelectorAll('.hero-gallery .dot'); if (!slides) return; slides.style.transform = `translateX(-${galleryIndex * 100}%)`; dots.forEach((dot, i) => dot.classList.toggle('active', i === galleryIndex)); } function startGalleryAutoPlay() { galleryTimer = setInterval(() => gallerySlide(1), 5000); } function resetGalleryAutoPlay() { clearInterval(galleryTimer); startGalleryAutoPlay(); } function switchPubTab(tab) { document.querySelectorAll('.pub-tab').forEach(btn => { btn.classList.toggle('active', btn.dataset.tab === tab); }); document.querySelectorAll('.pub-panel').forEach(panel => { panel.classList.toggle('active', panel.id === `panel-${tab}`); }); } function switchTeamTab(tab) { document.querySelectorAll('.team-tab').forEach(btn => { btn.classList.toggle('active', btn.dataset.tab === tab); }); document.querySelectorAll('.team-panel').forEach(panel => { panel.classList.toggle('active', panel.id === `panel-${tab}`); }); } document.addEventListener('click', (e) => { const anchor = e.target.closest('a[href^="#"]'); if (!anchor) return; const target = document.querySelector(anchor.getAttribute('href')); if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); } });</script>
